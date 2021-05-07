@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "cat.yoink.xanax.mixin",
+  "refmap": "mixins.xanax.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.7.4-SNAPSHOT",
+  "mixins": [
+    "EntityPlayerPatch",
+    "EntityRendererPatch",
+    "MinecraftPatch",
+    "NetworkManagerPatch",
+    "PlayerControllerMPPatch"
+  ]
+}
